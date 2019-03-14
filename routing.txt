@@ -1,0 +1,45 @@
+
+BGP
+---
+rfc 4271
+
+https://tools.ietf.org/html/rfc4271#page-11
+
+
+
+Capability Advertisement
+------------------------
+rfc 3392
+
+https://tools.ietf.org/html/rfc3392
+
+
+Route Refresh
+--------------
+rfc 2918
+
+old - part of OPEN message. Optional Parameter-capability
+new - new message type
+
+https://community.cisco.com/t5/switching/soft-reset-and-route-refresh-in-bgp/td-p/2674389
+
+Soft Reconfig maintains a separate unmodified database for a neighbor, and is used only when explicitly configured. 
+Route Refresh adds another message to BGP allowing a router to ask its peer to resend the routes again, and requires no
+configuration whatsoever. Soft Reconfig should not be used anymore, as it was just a workaround. Simply do nothing, and
+you get Route Refresh 
+
+https://tools.ietf.org/html/rfc2918
+
+
+
+Dynamic Capability
+------------------
+
+https://tools.ietf.org/id/draft-ietf-idr-dynamic-cap-00.txt
+
+   By advertising the Dynamic Capability to a peer in the OPEN, a BGP
+   speaker conveys to the peer that the speaker is capable of receiving
+   and properly handling the CAPABILITY message (as defined in the next
+   Section) from the peer after the BGP session has been established.
+
+
