@@ -1,0 +1,30 @@
+traffic generator
+------------------
+
+ostinago - ostinago.org
+
+iperf - https://openmaniak.com/iperf.php
+
+
+core dump
+---------
+ulimit -c
+ulimit -c unlimited
+$ ./bad
+Segmentation fault (core dumped)
+$ ls
+bad  bad.c  core.2333
+
+$ gdb ./bad core.2333
+
+
+The most common ways to corrupt heap are:
+----------------------------------------
+writing past the end of allocation
+freeing memory that you didn't allocate
+freeing something twice.
+
+
+Valgrind
+--------
+ valgrind --tool=memcheck --leak-check=full ./a.out 
