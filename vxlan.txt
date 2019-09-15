@@ -1,0 +1,11 @@
+
+VXLAN Series – How VTEP Learns and Creates Forwarding 
+https://blogs.vmware.com/vsphere/2013/05/vxlan-series-how-vtep-learns-and-creates-forwarding-table-part-5.html
+
+
+Connecting VMs Using Tunnels (Userspace)
+http://docs.openvswitch.org/en/latest/howto/userspace-tunneling/
+
+Mininet VXLAN example
+https://www.youtube.com/watch?v=QUmRUSqaAzc&feature=youtu.be
+https://www.dropbox.com/sh/68v4pqi6nl50cdu/AADXQLIo0esriIVmyXtmiGROa?dl=0  - flow rules
