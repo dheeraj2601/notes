@@ -42,4 +42,7 @@ https://tools.ietf.org/id/draft-ietf-idr-dynamic-cap-00.txt
    and properly handling the CAPABILITY message (as defined in the next
    Section) from the peer after the BGP session has been established.
 
-
+BGP unnumbered
+--------------
+https://www.oreilly.com/library/view/bgp-in-the/9781491983416/ch04.html
+https://docs.cumulusnetworks.com/cumulus-linux/Layer-3/Border-Gateway-Protocol-BGP/
