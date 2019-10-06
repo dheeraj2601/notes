@@ -1,0 +1,9 @@
+
+thread basics :
+https://www.cs.cmu.edu/afs/cs/academic/class/15492-f07/www/pthreads.html
+
+unix-network programming . IPC .
+
+
+thread debugging :
+https://sourceware.org/gdb/onlinedocs/gdb/Threads.html
